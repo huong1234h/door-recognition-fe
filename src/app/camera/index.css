@@ -1,0 +1,20 @@
+:where(.css-dev-only-do-not-override-1x0dypw).ant-input-group >.ant-input:first-child, :where(.css-dev-only-do-not-override-1x0dypw).ant-input-group .ant-input-group-addon:first-child {
+    border-start-end-radius: 0;
+    border-end-end-radius: 0;
+    height: 40px;
+
+}
+
+:where(.css-dev-only-do-not-override-1x0dypw).ant-input-search >.ant-input-group >.ant-input-group-addon:last-child .ant-input-search-button {
+    margin-inline-end: -1px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-start-start-radius: 0;
+    border-end-start-radius: 0;
+    box-shadow: none;
+    height: 40px;
+}
+
+label[title="Name deparment"]{
+    width:fit-content;
+}
